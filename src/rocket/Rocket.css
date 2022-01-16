@@ -1,5 +1,7 @@
-div {
+.rocket {
     border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
 }
 
 img {
