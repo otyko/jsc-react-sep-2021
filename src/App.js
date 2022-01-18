@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React, {useState} from "react";
 
-import Users from "./comonents/Users/Users";
-import UserDetails from "./comonents/UserDetails/UserDetails";
-import Posts from "./comonents/Posts/Posts";
-import css from './App.module.css';
+import Users from "./components/Users/Users";
+import UserDetails from "./components/UserDetails/UserDetails";
+import Posts from "./components/Posts/Posts";
+import css from "./App.module.css";
 import {postService} from "./services/post.service";
 
 const App = () => {

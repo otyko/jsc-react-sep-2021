@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import css from './User.module.css';
+import css from "./User.module.css";
 
 const User = ({user, getUser}) => {
     const {id, name} = user;
